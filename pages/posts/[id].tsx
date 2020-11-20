@@ -18,7 +18,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 const Post = ({ postData }) => (
-  <Layout>
+  <Layout home={false}>
     <Head>
       <title>{postData.title}</title>
     </Head>
